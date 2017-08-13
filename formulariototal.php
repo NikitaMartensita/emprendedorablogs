@@ -26,7 +26,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $apellidos = filtro($_POST["apellidos"]);
   }
   if(empty($_POST["contrasena"])){
-    $errContra = "La contrase&ntilde;a es obligatoria";
+    $errContra = "La contraseña es obligatoria";
   }
   else{
     $contra = filtro($_POST["contrasena"]);
