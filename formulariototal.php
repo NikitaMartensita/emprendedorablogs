@@ -89,7 +89,7 @@ function filtro($entrada) {
   <br><br>
   Apellidos:<input  type="text" name="apellidos"/> <?php echo $errApellidos;?>
   <br><br>
-  Contrase&ntilde;a:<input  type="password" name="contrasena"/> <?php echo $errContra;?>
+  Contraseña:<input  type="password" name="contrasena"/> <?php echo $errContra;?>
   <br><br>
   Edad:<input  type="text" name="edad"/> <?php echo $errEdad;?>
   <br><br>
